@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+   }
+
+li {
+	float: left;
+	}
+
+li a {
+     display:block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     }
+
+li a:hover {
+     background-color: #0FF513;
+     }
+.active {
+     background-color: #F73D20;
+}
+.center{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%)
+	font-size: 18px;
+}
+
+img {
+	width: 100%;
+	opacity: 1;
+}
+
+h1 {
+	
+	color:black;
+	font-size:30px;
+	text-align:center;
+	font-family:harlow solid italic;
+}
+
+h2 {
+	
+	color:black;
+	font-size:20px;
+	text-align:center;
+	font-family:harlow solid italic;
+}
+
+hr {
+    display: double;
+    margin-center: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    width:50%;	
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="nutmeg.jpg" alt="Nutmeg" width="1000" height="300">
+  <div class="center"></div>
+</div>
+
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="activities.html">Activities</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+  <li><a href="history.html">History</a></li>	
+  <li style="float:right"><a class="active" href="about.html">About</a></li>
+</ul><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+<h1 id="grenada">Welcome To Grenada</h1>
+<hr></hr>
+
+<h2>Welcome to the island of Grenada where the people, senses and beaches are nice. There is alot to explore on this tiny island and the journey begins here. Hope you enjoy your stay if you are on the island already and if you are not here already, what are you waiting for.</h2>
+
+<div class="img">
+  <a target="iframeg" href="gbeach.jpg">
+    <img src="gbeach.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Grenada</div>
+</div>
+
+<div class="img">
+  <a target="iframeg" href="grandbeach.jpg">
+    <img src="grandbeach.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Grand Anse Beach</div>
+</div>
+
+<div class="img">
+  <a target="iframeg" href="north.jpg">
+    <img src="north.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Levera Beach</div>
+</div>
+
+<div class="img">
+  <a target="iframeg" href="flag.jpg">
+    <img src="flag.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Grenada Flag</div>
+</div>
+
+<div class="img">
+  <a target="iframeg" href="town.jpg">
+    <img src="town.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Town of St.Georges</div>
+</div>
+
+<div class="img">
+  <a target="iframeg" href="sgu2.jpg">
+    <img src="sgu2.jpg" width="300" height="200">
+  </a>
+  <div class="desc">SGU Grenada</div>
+</div>
+<iframe src="gbeach.jpg" name="iframeg" width="100%" height="1000"></iframe>
+
+<h1><a href="#grenada">Go back up</a></h1>
+
+
+</body>
+</html>
